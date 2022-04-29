@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Alterar dados do produto"/>
+    <Property name="iconImage" type="java.awt.Image" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="new javax.swing.ImageIcon(getClass().getResource(&quot;/imagens/icon_transparent.png&quot;)).getImage()" type="code"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPTelaAlterarDadosProduto" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPTelaAlterarDadosProduto" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPTelaAlterarDadosProduto">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="57" green="61" red="6a" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Tela de alterar dados do produto">
+              <Color PropertyName="color" blue="3" green="3" red="a" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="ButCancelar3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ButCancelar2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ButCancelar1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ButCancelar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ButSalvar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtCor" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jFmtDataValidade" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="txtUtilidade" alignment="0" pref="209" max="32767" attributes="0"/>
+                                                  <Component id="txtMarca" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="txtTipoProduto" alignment="0" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Component id="txtRating" alignment="0" min="-2" pref="154" max="-2" attributes="0"/>
+                                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtNomeProduto" min="-2" pref="278" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="ButAlterarDados" max="32767" attributes="0"/>
+                                              <Component id="ButExcluir" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Component id="jScrollPaneAlterarDadosP" min="-2" pref="282" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="27" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtNomeProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ButAlterarDados" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txtRating" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                  <Component id="ButExcluir" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtTipoProduto" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtCor" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtMarca" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtUtilidade" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jFmtDataValidade" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPaneAlterarDadosP" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="100" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ButSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButCancelar1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButCancelar2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButCancelar3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nome do produto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNomeProduto">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite o nome do produto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNomeProdutoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Rating"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRating">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite o rating do produto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtRatingActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tipo do produto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTipoProduto">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite o tipo do produto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTipoProdutoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cor do produto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCor">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite a cor do produto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCorActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Marca do produto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMarca">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite a marca do produto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMarcaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Utilidade do produto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUtilidade">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite a utilidade do produto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUtilidadeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Data de validade do produto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jFmtDataValidade">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+              <Format format="##/##/####" subtype="-1" type="5"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Digite a data de validade do produto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFmtDataValidadeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButSalvar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="1b" green="ea" red="ea" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="115"/>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para salvar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButSalvarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButCancelar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4f" green="5c" red="5c" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="99"/>
+            <Property name="text" type="java.lang.String" value="Cancelar"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para cancelar a a&#xe7;&#xe3;o"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButCancelarActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPaneAlterarDadosP">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4f" green="5c" red="5c" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder/>
+              </Border>
+            </Property>
+            <Property name="viewportBorder" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                <EmptyBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTableAlterarDadosP">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="4f" green="5c" red="5c" type="rgb"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="2" rowCount="21">
+                    <Column editable="true" title="Nome do produto" type="java.lang.Object"/>
+                    <Column editable="true" title="Rating" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="gridColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="3c" green="3c" red="3c" type="rgb"/>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="ButExcluir">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="1b" green="ea" red="ea" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="101"/>
+            <Property name="text" type="java.lang.String" value="Excluir"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para excluir o produto selecionado"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButExcluirActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButAlterarDados">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4f" green="5c" red="5c" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="97"/>
+            <Property name="text" type="java.lang.String" value="Alterar dados"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para alterar os dados do produto selecionado"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButAlterarDadosActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="7" rowCount="4">
+                    <Column editable="false" title="ID Produto" type="java.lang.Object"/>
+                    <Column editable="false" title="Nome do Produto" type="java.lang.Object"/>
+                    <Column editable="false" title="Rating" type="java.lang.Object"/>
+                    <Column editable="false" title="Tipo do produto" type="java.lang.Object"/>
+                    <Column editable="false" title="Cor " type="java.lang.Object"/>
+                    <Column editable="false" title="Marca" type="java.lang.Object"/>
+                    <Column editable="false" title="Utilidade" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTable1KeyReleased"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="ButCancelar1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="1b" green="ea" red="ea" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="99"/>
+            <Property name="text" type="java.lang.String" value="Deletar"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para cancelar o cadastro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButCancelar1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButCancelar2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4f" green="5c" red="5c" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="99"/>
+            <Property name="text" type="java.lang.String" value="AtualizarD"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para cancelar o cadastro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButCancelar2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButCancelar3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4f" green="5c" red="5c" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="99"/>
+            <Property name="text" type="java.lang.String" value="AtualizarM"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para cancelar o cadastro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButCancelar3ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

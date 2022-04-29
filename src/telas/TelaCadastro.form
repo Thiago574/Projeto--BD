@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Cadastro"/>
+    <Property name="iconImage" type="java.awt.Image" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="new javax.swing.ImageIcon(getClass().getResource(&quot;/imagens/icon_transparent.png&quot;)).getImage()" type="code"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPTelaLogin" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPTelaLogin" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPTelaLogin">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="57" green="61" red="6a" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Tela de Cadastro">
+              <Color PropertyName="color" blue="3" green="3" red="a" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="ButCancelar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="ButSalvar" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="txtLoginC" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelCPF" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelDataNascimento" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelNome" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtNome" alignment="0" min="-2" pref="343" max="-2" attributes="0"/>
+                                          <Component id="jLabelSenha" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabelCidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txtCidade" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jLabelEstado" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jCBEstados" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="79" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jFmtDataNascimento" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="384" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabelTelefone" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelLogin" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFmtCPF" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
+                              <Component id="jFmtTelefone" alignment="0" min="-2" pref="218" max="-2" attributes="0"/>
+                              <Component id="jPwdSenhaC" alignment="0" min="-2" pref="260" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="414" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabelNome" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txtNome" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelDataNascimento" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jFmtDataNascimento" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelCPF" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jFmtCPF" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabelCidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabelEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtCidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCBEstados" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelTelefone" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jFmtTelefone" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelLogin" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="txtLoginC" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelSenha" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPwdSenhaC" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ButCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ButSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelNome">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nome"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNome">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite seu nome"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNomeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelDataNascimento">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Data de nascimento"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jFmtDataNascimento">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+              <Format format="##/##/####" subtype="-1" type="5"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Digite sua data de nascimento"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFmtDataNascimentoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelCPF">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CPF"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jFmtCPF">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+              <Format format="###.###.###-##" subtype="-1" type="5"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Digite seu CPF"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelCidade">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cidade"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCidade">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite sua cidade"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCidadeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelEstado">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Estado"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jCBEstados">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4f" green="5c" red="5c" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="28">
+                <StringItem index="0" value="Selecione seu estado"/>
+                <StringItem index="1" value="Acre - AC "/>
+                <StringItem index="2" value="Alagoas - AL"/>
+                <StringItem index="3" value="Amap&#xe1; - AP "/>
+                <StringItem index="4" value="Amazonas - AM"/>
+                <StringItem index="5" value="Bahia - BA"/>
+                <StringItem index="6" value="Cear&#xe1; - CE "/>
+                <StringItem index="7" value="Distrito Federal - DF"/>
+                <StringItem index="8" value="Esp&#xed;rito Santo - ES"/>
+                <StringItem index="9" value="Goi&#xe1;s - GO "/>
+                <StringItem index="10" value="Maranh&#xe3;o - MA "/>
+                <StringItem index="11" value="Mato Grosso - MT"/>
+                <StringItem index="12" value="Mato Grosso do Sul - MS "/>
+                <StringItem index="13" value="Minas Gerais - MG"/>
+                <StringItem index="14" value="Par&#xe1; - PA"/>
+                <StringItem index="15" value="Para&#xed;ba - PB "/>
+                <StringItem index="16" value="Paran&#xe1; - PR "/>
+                <StringItem index="17" value="Pernambuco - PE "/>
+                <StringItem index="18" value="Piau&#xed; - PI"/>
+                <StringItem index="19" value="Roraima - RR "/>
+                <StringItem index="20" value="Rond&#xf4;nia - RO "/>
+                <StringItem index="21" value="Rio de Janeiro - RJ "/>
+                <StringItem index="22" value="Rio Grande do Norte - RN"/>
+                <StringItem index="23" value="Rio Grande do Sul - RS "/>
+                <StringItem index="24" value="Santa Catarina - SC "/>
+                <StringItem index="25" value="S&#xe3;o Paulo - SP "/>
+                <StringItem index="26" value="Sergipe - SE "/>
+                <StringItem index="27" value="Tocantins - TO"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Selecione seu estado"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCBEstadosActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelTelefone">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Telefone"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jFmtTelefone">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+              <Format format="(##)9####-####" subtype="-1" type="5"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Digite seu telefone"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelLogin">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Login"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLoginC">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite um login"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLoginCActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelSenha">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="a" green="a" red="14" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Senha"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="jPwdSenhaC">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Digite uma senha"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButSalvar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="1b" green="ea" red="ea" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="115"/>
+            <Property name="text" type="java.lang.String" value="Salvar"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para salvar os dados"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButSalvarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ButCancelar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="4f" green="5c" red="5c" type="rgb"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="99"/>
+            <Property name="text" type="java.lang.String" value="Cancelar"/>
+            <Property name="toolTipText" type="java.lang.String" value="Clique para cancelar o cadastro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButCancelarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
